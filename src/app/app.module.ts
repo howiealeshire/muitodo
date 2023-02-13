@@ -14,10 +14,12 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import {MatListModule} from '@angular/material/list'
+import { TodoHeader } from './header-component/todo-header.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TodoItem
+    TodoItem,
+    TodoHeader
   ],
   imports: [
     BrowserModule,
