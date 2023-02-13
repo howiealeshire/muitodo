@@ -1,3 +1,4 @@
+
 .todoapp h1 {
 	position: absolute;
 	top: -10px;
@@ -7,6 +8,28 @@
 	text-align: center;
 	color: rgba(175, 47, 47, 0.15);
 }
+
+i {
+    font-size: 30px;
+    color: lightgrey;
+}
+
+.check-all-button {
+	
+    font-size: 50px;
+    color: lightgrey;
+	//top: 85px;
+    position: relative;
+    left: 8px;
+	//border: none;
+	//color:white;
+	//background-color: white;
+}
+
+input {
+	text-indent: 30px;
+}
+
 body {
 	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
@@ -19,6 +42,7 @@ body {
 html, body {
 	margin:0px;
 	padding: 0px;
+	
 }
  /* unvisited link */
  a:link {
@@ -53,8 +77,16 @@ html, body {
 	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
 }
 
-.new-todo, .edit {
-	margin-top: 75px;
+.form-field {
+	padding: 16px 16px 16px 60px;
+	border: none;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+
+
+.form-field, .edit {
+	margin-top: 40px;
 	position: relative;
 	//margin: 0;
 	width: 100%;
@@ -66,7 +98,6 @@ html, body {
 	color: lightgray;
 	padding: 6px;
 	font-style:italic;
-	//border: 1px solid #999;
 	box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
 	box-sizing: border-box;
 }
