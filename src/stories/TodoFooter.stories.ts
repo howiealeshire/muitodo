@@ -1,14 +1,14 @@
 import { Story, Meta } from '@storybook/angular/types-6-0';
 import { moduleMetadata } from '@storybook/angular';
-import { TodoHeader } from 'src/app/header-component/todo-header.component';
+import { TodoFooter } from 'src/app/footer-component/todo-footer.component';
 
-const Template: Story<TodoHeader> = (args: TodoHeader) => ({
+const Template: Story<TodoFooter> = (args: TodoFooter) => ({
     props: args,
   });
 
 export default {
-    title: 'Angular Material/TodoHeader',
-    component: TodoHeader,
+    title: 'Angular Material/TodoFooter',
+    component: TodoFooter,
     decorators: [
       moduleMetadata({   
       }),

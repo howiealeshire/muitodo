@@ -105,12 +105,12 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "\r\n.todoapp h1 {\r\n\tposition: absolute;\r\n\ttop: -10px;\r\n\twidth: 100%;\r\n\tfont-size: 100px;\r\n\tfont-weight: 200px;\r\n\ttext-align: center;\r\n\tcolor: rgba(175, 47, 47, 0.15);\r\n}\r\n\r\ni {\r\n    font-size: 30px;\r\n    color: lightgrey;\r\n}\r\n\r\n.check-all-button {\r\n\t\r\n    font-size: 50px;\r\n    color: lightgrey;\r\n\t//top: 85px;\r\n    position: relative;\r\n    left: 8px;\r\n\t//border: none;\r\n\t//color:white;\r\n\t//background-color: white;\r\n}\r\n\r\ninput {\r\n\ttext-indent: 30px;\r\n}\r\n\r\nbody {\r\n\tfont: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n\tline-height: 1.4em;\r\n\tcolor: #4d4d4d;\r\n\tmin-width: 230px;\r\n\tmax-width: 550px;\r\n\tmargin: 0 auto;\r\n\tfont-weight: 300;\r\n}\r\nhtml, body {\r\n\tmargin:0px;\r\n\tpadding: 0px;\r\n\t\r\n}\r\n /* unvisited link */\r\n a:link {\r\n\tcolor: pink;\r\n\ttext-decoration: none;\r\n  }\r\n  \r\n  /* visited link */\r\n  a:visited {\r\n\tcolor: purple;\r\n\ttext-decoration: none;\r\n  }\r\n  \r\n  /* mouse over link */\r\n  a:hover {\r\n    color: hotpink;\r\n    text-decoration: none;\r\n\r\n  }\r\n\r\n.todoapp {\r\n\tbackground: #fff;\r\n\tmargin: 130px 0 40px 0;\r\n\tposition: relative;\r\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n.new-todo {\r\n\tpadding: 16px 16px 16px 60px;\r\n\tborder: none;\r\n\tbackground: rgba(0, 0, 0, 0.003);\r\n\tbox-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);\r\n}\r\n\r\n.form-field {\r\n\tpadding: 16px 16px 16px 60px;\r\n\tborder: none;\r\n\tbackground: rgba(0, 0, 0, 0.003);\r\n\tbox-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);\r\n}\r\n\r\n\r\n.form-field, .edit {\r\n\tmargin-top: 40px;\r\n\tposition: relative;\r\n\t//margin: 0;\r\n\twidth: 100%;\r\n\tfont-size: 24px;\r\n\tfont-family: inherit;\r\n\tfont-weight: inherit;\r\n\tline-height: 1.4em;\r\n\tborder: 0;\r\n\tcolor: lightgray;\r\n\tpadding: 6px;\r\n\tfont-style:italic;\r\n\tbox-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);\r\n\tbox-sizing: border-box;\r\n}\r\n\r\n.info {\r\n\tmargin: 65px auto 0;\r\n\tcolor: #bfbfbf;\r\n\tfont-size: 10px;\r\n\ttext-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);\r\n\ttext-align: center;\r\n}\r\n\r\n.learn-bar {\r\n\twidth: auto;\r\n\tpadding-left: 700px;\r\n}\r\n\r\n.learn-bar > .learn {\r\n\tleft: 8px;\r\n}\r\n\r\n.learn-bar > .learn {\r\n\tposition: absolute;\r\n\twidth: 272px;\r\n\ttop: 8px;\r\n\tleft: -300px;\r\n\tpadding: 10px;\r\n\tborder-radius: 5px;\r\n\tbackground-color: rgba(255, 255, 255, .6);\r\n\ttransition-property: left;\r\n\ttransition-duration: 500ms;\r\n}",
+                    "data": "\r\n\r\n\r\ni {\r\n    font-size: 30px;\r\n    color: lightgrey;\r\n}\r\n\r\n.check-all-button {\r\n\t\r\n    font-size: 50px;\r\n    color: lightgrey;\r\n\t//top: 85px;\r\n    position: relative;\r\n    left: 8px;\r\n\t//border: none;\r\n\t//color:white;\r\n\t//background-color: white;\r\n}\r\n\r\ninput {\r\n\ttext-indent: 30px;\r\n}\r\n\r\nbody {\r\n\tfont: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n\tline-height: 1.4em;\r\n\tcolor: #4d4d4d;\r\n\tmin-width: 230px;\r\n\tmax-width: 550px;\r\n\tmargin: 0 auto;\r\n\tfont-weight: 300;\r\n}\r\nhtml, body {\r\n\tmargin:0px;\r\n\tpadding: 0px;\r\n\t\r\n}\r\n /* unvisited link */\r\n a:link {\r\n\tcolor: pink;\r\n\ttext-decoration: none;\r\n  }\r\n  \r\n  /* visited link */\r\n  a:visited {\r\n\tcolor: purple;\r\n\ttext-decoration: none;\r\n  }\r\n  \r\n  /* mouse over link */\r\n  a:hover {\r\n    color: hotpink;\r\n    text-decoration: none;\r\n\r\n  }\r\n\r\n.todoapp {\r\n\tbackground: #fff;\r\n\tmargin: 130px 0 40px 0;\r\n\tposition: relative;\r\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n.new-todo {\r\n\tpadding: 16px 16px 16px 60px;\r\n\tborder: none;\r\n\tbackground: rgba(0, 0, 0, 0.003);\r\n\tbox-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);\r\n}\r\n\r\n.form-field {\r\n\tpadding: 16px 16px 16px 60px;\r\n\tborder: none;\r\n\tbackground: rgba(0, 0, 0, 0.003);\r\n\tbox-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);\r\n}\r\n\r\n\r\n.form-field, .edit {\r\n\tmargin-top: 40px;\r\n\tposition: relative;\r\n\t//margin: 0;\r\n\twidth: 100%;\r\n\tfont-size: 24px;\r\n\tfont-family: inherit;\r\n\tfont-weight: inherit;\r\n\tline-height: 1.4em;\r\n\tborder: 0;\r\n\tcolor: lightgray;\r\n\tpadding: 6px;\r\n\tfont-style:italic;\r\n\tbox-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);\r\n\tbox-sizing: border-box;\r\n}\r\n\r\n.info {\r\n\tmargin: 65px auto 0;\r\n\tcolor: #bfbfbf;\r\n\tfont-size: 10px;\r\n\ttext-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);\r\n\ttext-align: center;\r\n}\r\n\r\n.learn-bar {\r\n\twidth: auto;\r\n\tpadding-left: 700px;\r\n}\r\n\r\n.learn-bar > .learn {\r\n\tleft: 8px;\r\n}\r\n\r\n.learn-bar > .learn {\r\n\tposition: absolute;\r\n\twidth: 272px;\r\n\ttop: 8px;\r\n\tleft: -300px;\r\n\tpadding: 10px;\r\n\tborder-radius: 5px;\r\n\tbackground-color: rgba(255, 255, 255, .6);\r\n\ttransition-property: left;\r\n\ttransition-duration: 500ms;\r\n}",
                     "styleUrl": "./app.component.scss"
                 }
             ],
             "stylesData": "",
-            "templateData": "<html>\n<body class=\"learn-bar\">\n<section class=\"todoapp\" style=\"box-shadow:none;\" >\n    <header class=\"header\">\n    <h1 class>todos</h1>\n    <mat-form-field style=\"display:block; right: 25px; box-shadow: none;\" class=\"form-field\" >\n        <button (click)=\"checkAll()\" class=\"check-all-button\"  matPrefix mat-icon-button aria-label=\"Clear\">\n            <mat-icon class=\"check-all-button\" style=\"font-size:35px; top:-12px; left:15px\"> keyboard_arrow_down\n            </mat-icon>\n          </button>\n        <input class=\"new-todo\" matInput placeholder=\"         What needs to be done?\" value=\"\" style=\"box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),\n                    0 25px 50px 0 rgba(0, 0, 0, 0.1);\" (submit)=\"createTodoItem()\">\n    </mat-form-field>\n    <todo-item></todo-item>\n\n                \n</header>\n</section>\n<footer style=\"align-items:center;text-align:center;\">\n    <p>Double-click to edit a todo\n        <br>\n        Created by <a href=\"http://github.com/howiealeshire/\">howiealeshire</a>\n        <br>\n        Part of <a href=\"http://todomvc.com\">TodoMVC</a>\n    </p>\n</footer>\n</body>\n</html>\n"
+            "templateData": "<html>\n<body class=\"learn-bar\">\n<section class=\"todoapp\" style=\"box-shadow:none;\" >\n    <header class=\"header\">\n    <mat-form-field style=\"display:block; right: 25px; box-shadow: none;\" class=\"form-field\" >\n        <button (click)=\"checkAll()\" class=\"check-all-button\"  matPrefix mat-icon-button aria-label=\"Clear\">\n            <mat-icon class=\"check-all-button\" style=\"font-size:35px; top:-12px; left:15px\"> keyboard_arrow_down\n            </mat-icon>\n          </button>\n        <input class=\"new-todo\" matInput placeholder=\"         What needs to be done?\" value=\"\" style=\"box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),\n                    0 25px 50px 0 rgba(0, 0, 0, 0.1);\" (submit)=\"createTodoItem()\">\n    </mat-form-field>\n    <todo-item></todo-item>       \n</header>\n</section>\n</body>\n</html>\n"
         },
         {
             "name": "ButtonComponent",
@@ -390,6 +390,86 @@
             "stylesData": ""
         },
         {
+            "name": "TodoFooter",
+            "id": "component-TodoFooter-42e06cc8a209881e4a9661d633262b57a6979c149aef25d54b9cd2989fbf724b616848a53e1b5124ffaddab3dabb67461e3d928093eea10aac58253990b34eac",
+            "file": "src/app/footer-component/todo-footer.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "todo-footer",
+            "styleUrls": [
+                "./todo-footer.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./todo-footer.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';\r\n@Component({\r\n  selector: 'todo-footer',\r\n  templateUrl: './todo-footer.component.html',\r\n  styleUrls: ['./todo-footer.component.scss']\r\n})\r\n\r\nexport class TodoFooter {}\r\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./todo-footer.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<footer style=\"align-items:center;text-align:center;\">\r\n    <p>Double-click to edit a todo\r\n        <br>\r\n        Created by <a href=\"http://github.com/howiealeshire/\">howiealeshire</a>\r\n        <br>\r\n        Part of <a href=\"http://todomvc.com\">TodoMVC</a>\r\n    </p>\r\n</footer>"
+        },
+        {
+            "name": "TodoHeader",
+            "id": "component-TodoHeader-d5543640ff57012318ffafbd7a4d6e5b882db339d8dfd2a3595ffd9209b1726678ed6de88b3fd7be51b056548fbba49fb0ce04f94a3ad766b633653444c0ce97",
+            "file": "src/app/header-component/todo-header.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "todo-header",
+            "styleUrls": [
+                "./todo-header.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./todo-header.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';\r\n@Component({\r\n  selector: 'todo-header',\r\n  templateUrl: './todo-header.component.html',\r\n  styleUrls: ['./todo-header.component.scss']\r\n})\r\n\r\nexport class TodoHeader {\r\n  \r\n}\r\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "h1 {\r\n\tposition: absolute;\r\n\ttop: -55px;\r\n\twidth: 100%;\r\n\tfont-size: 100px;\r\n\tfont-weight: 400;\r\n\ttext-align: center;\r\n\tcolor: rgba(175, 47, 47, 0.15);\r\n}",
+                    "styleUrl": "./todo-header.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<h1 class=\"header\">todos</h1>\r\n"
+        },
+        {
             "name": "TodoItem",
             "id": "component-TodoItem-003444739daa08937eb9bf2c236fd389d511a51a0572fd7903844a434d58b665c0e299ed490a042af7765cc4aaf29354290a7a5096ea6fc2efed937c1fb13a1c",
             "file": "src/app/todo-item-component/todo-item.component.ts",
@@ -511,13 +591,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-6d5e8e4f06c3d6b8c405390666e9b08ea573405f60e409e0ea6a7bedce301e0179ff4875bc4a24f6f9fbc40f23dd6a63e621f2a8bac336118016126a49a7c521",
+            "id": "module-AppModule-110a6801841d8eb5a390d047c6320ed1f233b27f27ff4148514614d5f6dc81f420065a962428e58c13e8bd8edfba69b9ba546e5c15c537840285b9633ce307e5",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport {TodoItem} from './todo-item-component/todo-item.component'\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { MatTableModule } from '@angular/material/table';\nimport { MatToolbarModule } from '@angular/material/toolbar';\nimport { MatIconModule } from '@angular/material/icon'\nimport { MatMenuModule } from '@angular/material/menu'\nimport { MatButtonModule } from '@angular/material/button'\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field'\nimport { MatInputModule } from '@angular/material/input'\nimport {MatListModule} from '@angular/material/list'\n@NgModule({\n  declarations: [\n    AppComponent,\n    TodoItem\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    BrowserAnimationsModule,\n    MatTableModule,\n    MatToolbarModule,\n    MatIconModule,\n    MatMenuModule,\n    MatButtonModule,\n    MatCardModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatListModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport {TodoItem} from './todo-item-component/todo-item.component'\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { MatTableModule } from '@angular/material/table';\nimport { MatToolbarModule } from '@angular/material/toolbar';\nimport { MatIconModule } from '@angular/material/icon'\nimport { MatMenuModule } from '@angular/material/menu'\nimport { MatButtonModule } from '@angular/material/button'\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field'\nimport { MatInputModule } from '@angular/material/input'\nimport {MatListModule} from '@angular/material/list'\nimport { TodoHeader } from './header-component/todo-header.component';\nimport { TodoFooter } from './footer-component/todo-footer.component';\n@NgModule({\n  declarations: [\n    AppComponent,\n    TodoItem,\n    TodoHeader,\n    TodoFooter\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    BrowserAnimationsModule,\n    MatTableModule,\n    MatToolbarModule,\n    MatIconModule,\n    MatMenuModule,\n    MatButtonModule,\n    MatCardModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatListModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
             "children": [
                 {
                     "type": "providers",
@@ -528,6 +608,12 @@
                     "elements": [
                         {
                             "name": "AppComponent"
+                        },
+                        {
+                            "name": "TodoFooter"
+                        },
+                        {
+                            "name": "TodoHeader"
                         },
                         {
                             "name": "TodoItem"
@@ -610,14 +696,34 @@
                 "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
             },
             {
-                "name": "environment",
+                "name": "Determinate",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/environments/environment.ts",
+                "file": "src/stories/App.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "object",
-                "defaultValue": "{\n  production: false\n}"
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Determinate",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoFooter.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Determinate",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoHeader.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
             },
             {
                 "name": "environment",
@@ -628,6 +734,16 @@
                 "deprecationMessage": "",
                 "type": "object",
                 "defaultValue": "{\n  production: true\n}"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: false\n}"
             },
             {
                 "name": "Large",
@@ -722,6 +838,16 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/stories/App.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<AppComponent>",
+                "defaultValue": "(args: AppComponent) => ({\r\n    props: args,\r\n  })"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/stories/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -747,6 +873,26 @@
                 "deprecationMessage": "",
                 "type": "Story<Page>",
                 "defaultValue": "(args: Page) => ({\n  props: args,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoFooter.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<TodoFooter>",
+                "defaultValue": "(args: TodoFooter) => ({\r\n    props: args,\r\n  })"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoHeader.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<TodoHeader>",
+                "defaultValue": "(args: TodoHeader) => ({\r\n    props: args,\r\n  })"
             }
         ],
         "functions": [],
@@ -774,16 +920,70 @@
                     "type": "literal type"
                 }
             ],
-            "src/environments/environment.ts": [
+            "src/stories/App.stories.ts": [
                 {
-                    "name": "environment",
+                    "name": "Determinate",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/environments/environment.ts",
+                    "file": "src/stories/App.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "object",
-                    "defaultValue": "{\n  production: false\n}"
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/App.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<AppComponent>",
+                    "defaultValue": "(args: AppComponent) => ({\r\n    props: args,\r\n  })"
+                }
+            ],
+            "src/stories/TodoFooter.stories.ts": [
+                {
+                    "name": "Determinate",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TodoFooter.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TodoFooter.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<TodoFooter>",
+                    "defaultValue": "(args: TodoFooter) => ({\r\n    props: args,\r\n  })"
+                }
+            ],
+            "src/stories/TodoHeader.stories.ts": [
+                {
+                    "name": "Determinate",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TodoHeader.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TodoHeader.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<TodoHeader>",
+                    "defaultValue": "(args: TodoHeader) => ({\r\n    props: args,\r\n  })"
                 }
             ],
             "src/environments/environment.prod.ts": [
@@ -796,6 +996,18 @@
                     "deprecationMessage": "",
                     "type": "object",
                     "defaultValue": "{\n  production: true\n}"
+                }
+            ],
+            "src/environments/environment.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: false\n}"
                 }
             ],
             "src/stories/Button.stories.ts": [
@@ -934,7 +1146,7 @@
         ]
     },
     "coverage": {
-        "count": 3,
+        "count": 2,
         "status": "low",
         "files": [
             {
@@ -944,6 +1156,24 @@
                 "name": "AppComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/6",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/footer-component/todo-footer.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TodoFooter",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/header-component/todo-header.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TodoHeader",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -971,6 +1201,26 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "environment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/App.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Determinate",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/App.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -1077,6 +1327,46 @@
             },
             {
                 "filePath": "src/stories/Page.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TodoFooter.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Determinate",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TodoFooter.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TodoHeader.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Determinate",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TodoHeader.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",

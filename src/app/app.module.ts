@@ -15,11 +15,13 @@ import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import {MatListModule} from '@angular/material/list'
 import { TodoHeader } from './header-component/todo-header.component';
+import { TodoFooter } from './footer-component/todo-footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     TodoItem,
-    TodoHeader
+    TodoHeader,
+    TodoFooter
   ],
   imports: [
     BrowserModule,
