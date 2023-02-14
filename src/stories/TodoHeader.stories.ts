@@ -15,6 +15,6 @@ export default {
     ],
   } as Meta;
 
-  export const Determinate = Template.bind({});
-  Determinate.args = {
+  export const Default = Template.bind({});
+  Default.args = {
   };

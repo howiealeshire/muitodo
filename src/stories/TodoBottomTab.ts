@@ -1,14 +1,14 @@
 import { Story, Meta } from '@storybook/angular/types-6-0';
 import { moduleMetadata } from '@storybook/angular';
-import { TodoFooter } from 'src/app/footer-component/todo-footer.component';
+import { TodoBottomTabComponent } from 'src/app/todo-bottom-tab/todo-bottom-tab.component';
 
-const Template: Story<TodoFooter> = (args: TodoFooter) => ({
+const Template: Story<TodoBottomTabComponent> = (args: TodoBottomTabComponent) => ({
     props: args,
   });
 
 export default {
-    title: 'Angular Material/TodoFooter',
-    component: TodoFooter,
+    title: 'Angular Material/TodoBottomTab',
+    component: TodoBottomTabComponent,
     decorators: [
       moduleMetadata({   
       }),
