@@ -18,6 +18,7 @@ import { TodoHeader } from './header-component/todo-header.component';
 import { TodoFooter } from './footer-component/todo-footer.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoBottomTabComponent } from './todo-bottom-tab/todo-bottom-tab.component';
+import { TodoInputComponent } from './todo-input/todo-input.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { TodoBottomTabComponent } from './todo-bottom-tab/todo-bottom-tab.compon
     TodoHeader,
     TodoFooter,
     TodoListComponent,
-    TodoBottomTabComponent
+    TodoBottomTabComponent,
+    TodoInputComponent
   ],
   imports: [
     BrowserModule,

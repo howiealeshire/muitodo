@@ -532,6 +532,68 @@
             "templateData": "<h1 class=\"header\">todos</h1>\r\n"
         },
         {
+            "name": "TodoInputComponent",
+            "id": "component-TodoInputComponent-2f946e6e7d2faa2e4b1a6bc0a0e25064c55aecf40739a087b0e7564e1c344e776f598fe8e1cbf0714bd76c3860fe7c1280746c9f759d4323e580792985a2260c",
+            "file": "src/app/todo-input/todo-input.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-todo-input",
+            "styleUrls": [
+                "./todo-input.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./todo-input.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-todo-input',\n  templateUrl: './todo-input.component.html',\n  styleUrls: ['./todo-input.component.scss']\n})\nexport class TodoInputComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./todo-input.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<p>todo-input works!</p>\n"
+        },
+        {
             "name": "TodoItem",
             "id": "component-TodoItem-003444739daa08937eb9bf2c236fd389d511a51a0572fd7903844a434d58b665c0e299ed490a042af7765cc4aaf29354290a7a5096ea6fc2efed937c1fb13a1c",
             "file": "src/app/todo-item-component/todo-item.component.ts",
@@ -715,13 +777,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-b19457ce76a574043e99119155737ec70de8c2d24fbac089453dde338ea7ede7247c6f45704e31a6c42e5b72c4b44e1de739e94709e4988832977881d2cd945b",
+            "id": "module-AppModule-51a9e05dd87eff693951ecd226839b1c34e9528979bfa681f8a4306e5eabb436ef44d572f5688d2ca9784897359881fc2aafa867703d4254fce6228663a51aba",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport {TodoItem} from './todo-item-component/todo-item.component'\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { MatTableModule } from '@angular/material/table';\nimport { MatToolbarModule } from '@angular/material/toolbar';\nimport { MatIconModule } from '@angular/material/icon'\nimport { MatMenuModule } from '@angular/material/menu'\nimport { MatButtonModule } from '@angular/material/button'\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field'\nimport { MatInputModule } from '@angular/material/input'\nimport {MatListModule} from '@angular/material/list'\nimport { TodoHeader } from './header-component/todo-header.component';\nimport { TodoFooter } from './footer-component/todo-footer.component';\nimport { TodoListComponent } from './todo-list/todo-list.component';\nimport { TodoBottomTabComponent } from './todo-bottom-tab/todo-bottom-tab.component';\n@NgModule({\n  declarations: [\n    AppComponent,\n    TodoItem,\n    TodoHeader,\n    TodoFooter,\n    TodoListComponent,\n    TodoBottomTabComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    BrowserAnimationsModule,\n    MatTableModule,\n    MatToolbarModule,\n    MatIconModule,\n    MatMenuModule,\n    MatButtonModule,\n    MatCardModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatListModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport {TodoItem} from './todo-item-component/todo-item.component'\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { MatTableModule } from '@angular/material/table';\nimport { MatToolbarModule } from '@angular/material/toolbar';\nimport { MatIconModule } from '@angular/material/icon'\nimport { MatMenuModule } from '@angular/material/menu'\nimport { MatButtonModule } from '@angular/material/button'\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field'\nimport { MatInputModule } from '@angular/material/input'\nimport {MatListModule} from '@angular/material/list'\nimport { TodoHeader } from './header-component/todo-header.component';\nimport { TodoFooter } from './footer-component/todo-footer.component';\nimport { TodoListComponent } from './todo-list/todo-list.component';\nimport { TodoBottomTabComponent } from './todo-bottom-tab/todo-bottom-tab.component';\nimport { TodoInputComponent } from './todo-input/todo-input.component';\n@NgModule({\n  declarations: [\n    AppComponent,\n    TodoItem,\n    TodoHeader,\n    TodoFooter,\n    TodoListComponent,\n    TodoBottomTabComponent,\n    TodoInputComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    BrowserAnimationsModule,\n    MatTableModule,\n    MatToolbarModule,\n    MatIconModule,\n    MatMenuModule,\n    MatButtonModule,\n    MatCardModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatListModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
             "children": [
                 {
                     "type": "providers",
@@ -741,6 +803,9 @@
                         },
                         {
                             "name": "TodoHeader"
+                        },
+                        {
+                            "name": "TodoInputComponent"
                         },
                         {
                             "name": "TodoItem"
@@ -829,7 +894,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/TodoBottomTab.ts",
+                "file": "src/stories/TodoHeader.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -849,7 +914,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/TodoHeader.stories.ts",
+                "file": "src/stories/TodoBottomTab.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -859,7 +924,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/TodoList.ts",
+                "file": "src/stories/TodoInput.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -869,7 +934,17 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/TodoListItem.ts",
+                "file": "src/stories/TodoList.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoListItem.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -1028,31 +1103,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/TodoBottomTab.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<TodoBottomTabComponent>",
-                "defaultValue": "(args: TodoBottomTabComponent) => ({\r\n    props: args,\r\n  })"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/stories/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<Page>",
                 "defaultValue": "(args: Page) => ({\n  props: args,\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/stories/TodoFooter.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<TodoFooter>",
-                "defaultValue": "(args: TodoFooter) => ({\r\n    props: args,\r\n  })"
             },
             {
                 "name": "Template",
@@ -1068,7 +1123,37 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/TodoList.ts",
+                "file": "src/stories/TodoFooter.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<TodoFooter>",
+                "defaultValue": "(args: TodoFooter) => ({\r\n    props: args,\r\n  })"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoBottomTab.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<TodoBottomTabComponent>",
+                "defaultValue": "(args: TodoBottomTabComponent) => ({\r\n    props: args,\r\n  })"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoInput.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<TodoInputComponent>",
+                "defaultValue": "(args: TodoInputComponent) => ({\r\n    props: args,\r\n  })"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TodoList.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<TodoListComponent>",
@@ -1078,7 +1163,7 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/TodoListItem.ts",
+                "file": "src/stories/TodoListItem.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<TodoItem>",
@@ -1110,12 +1195,12 @@
                     "type": "literal type"
                 }
             ],
-            "src/stories/TodoBottomTab.ts": [
+            "src/stories/TodoHeader.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoBottomTab.ts",
+                    "file": "src/stories/TodoHeader.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -1125,11 +1210,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoBottomTab.ts",
+                    "file": "src/stories/TodoHeader.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<TodoBottomTabComponent>",
-                    "defaultValue": "(args: TodoBottomTabComponent) => ({\r\n    props: args,\r\n  })"
+                    "type": "Story<TodoHeader>",
+                    "defaultValue": "(args: TodoHeader) => ({\r\n    props: args,\r\n  })"
                 }
             ],
             "src/stories/TodoFooter.stories.ts": [
@@ -1154,12 +1239,12 @@
                     "defaultValue": "(args: TodoFooter) => ({\r\n    props: args,\r\n  })"
                 }
             ],
-            "src/stories/TodoHeader.stories.ts": [
+            "src/stories/TodoBottomTab.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoHeader.stories.ts",
+                    "file": "src/stories/TodoBottomTab.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -1169,19 +1254,19 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoHeader.stories.ts",
+                    "file": "src/stories/TodoBottomTab.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<TodoHeader>",
-                    "defaultValue": "(args: TodoHeader) => ({\r\n    props: args,\r\n  })"
+                    "type": "Story<TodoBottomTabComponent>",
+                    "defaultValue": "(args: TodoBottomTabComponent) => ({\r\n    props: args,\r\n  })"
                 }
             ],
-            "src/stories/TodoList.ts": [
+            "src/stories/TodoInput.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoList.ts",
+                    "file": "src/stories/TodoInput.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -1191,19 +1276,41 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoList.ts",
+                    "file": "src/stories/TodoInput.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<TodoInputComponent>",
+                    "defaultValue": "(args: TodoInputComponent) => ({\r\n    props: args,\r\n  })"
+                }
+            ],
+            "src/stories/TodoList.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TodoList.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TodoList.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<TodoListComponent>",
                     "defaultValue": "(args: TodoListComponent) => ({\r\n    props: args,\r\n  })"
                 }
             ],
-            "src/stories/TodoListItem.ts": [
+            "src/stories/TodoListItem.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoListItem.ts",
+                    "file": "src/stories/TodoListItem.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -1213,7 +1320,7 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/TodoListItem.ts",
+                    "file": "src/stories/TodoListItem.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<TodoItem>",
@@ -1442,6 +1549,15 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/todo-input/todo-input.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TodoInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/todo-item-component/todo-item.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -1610,7 +1726,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/TodoBottomTab.ts",
+                "filePath": "src/stories/TodoBottomTab.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1620,7 +1736,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/TodoBottomTab.ts",
+                "filePath": "src/stories/TodoBottomTab.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1670,7 +1786,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/TodoList.ts",
+                "filePath": "src/stories/TodoInput.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1680,7 +1796,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/TodoList.ts",
+                "filePath": "src/stories/TodoInput.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1690,7 +1806,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/TodoListItem.ts",
+                "filePath": "src/stories/TodoList.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1700,7 +1816,27 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/TodoListItem.ts",
+                "filePath": "src/stories/TodoList.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TodoListItem.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TodoListItem.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
