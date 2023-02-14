@@ -16,12 +16,16 @@ import { MatInputModule } from '@angular/material/input'
 import {MatListModule} from '@angular/material/list'
 import { TodoHeader } from './header-component/todo-header.component';
 import { TodoFooter } from './footer-component/todo-footer.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
+import { TodoBottomTabComponent } from './todo-bottom-tab/todo-bottom-tab.component';
 @NgModule({
   declarations: [
     AppComponent,
     TodoItem,
     TodoHeader,
-    TodoFooter
+    TodoFooter,
+    TodoListComponent,
+    TodoBottomTabComponent
   ],
   imports: [
     BrowserModule,
